@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {BrowserRouter} from "react-router-dom"
+import {SignUpContextProvider} from "./Context/SignUpContext"
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+   <SignUpContextProvider>
+    <BrowserRouter>
+        <App/>
+    </BrowserRouter>
+    </SignUpContextProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

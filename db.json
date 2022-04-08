@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "name": "suresh yarram",
+      "age": "26",
+      "date_of_birth": "2022-04-05",
+      "states": "telangana",
+      "address": "Warangal,Telangana",
+      "pincode": "506330",
+      "id": 1
+    }
+  ]
+}
